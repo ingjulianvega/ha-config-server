@@ -1,3 +1,8 @@
 #Should be env property
 encrypt:
   key: MySupersecretKey
+eureka:
+  client:
+    service-url:
+      defaultZone: http://netflix:eureka@localhost:8761/eureka
+      #defaultZone: http://user:password@localhost:8761/eureka #http basic authentication in order to this service can talk with eureka
