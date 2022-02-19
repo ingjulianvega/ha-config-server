@@ -19,6 +19,10 @@ spring:
           search-paths: '{application}'
           #Este lo vi en https://cloud.spring.io/spring-cloud-config/reference/html/ (funciona)
           #searchPaths: '{application}'
+  security:
+    user:
+      name: MyUserName
+      password: MySecretPassword
 #General configuration
 server:
   port: 8888
