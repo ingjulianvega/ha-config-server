@@ -6,6 +6,7 @@ contact-name: Julián Camilo Vega Rocha
 contact-email: ingjulianvega@gmail.com
 contact-url: https://twitter.com/ingjulianvega
 
+
 spring:
   application:
     name: @artifactId@
